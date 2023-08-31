@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    background-color: #0057b8;
+    border: 2px solid transparent;
+    padding: 25px;
+    width: 350px;
+    font-size: 1rem;
+    margin: 20px;
+    border-radius: 35px;
+    color: #fff;
+}
+
+.page{
+    background-color: #f3f4f6;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    height: 100vw;
+}
+.container{
+    margin-top: 30px;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 30px;
+ 
+}
+
+.heading p:nth-child(1){
+    font-size: 1.5rem;
+    color: #1d2329;
+    line-height: 1.6;
+}
+
+.heading h2{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    color: #1d2329;
+    margin-bottom: 10px;
+}
+
+.heading p:nth-child(3){
+    font-size: 1.2rem;
+    color: #1d2329;
+    line-height: 1.4;
+    max-width: 1200px;
+    margin: auto;
+    font-family: sans-serif;
+  
+}
+.parent_Card{
+    text-align: center;
+    background-color: #f3f4f6;
+    /* max-width: 700px;
+    margin: auto; */
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    padding-top: 20px;
+}
+
+.cards{
+    margin: 20px;
+    background-color: #fff;
+    /* flex-basis:33.33% ; */
+    padding-top: 30px;
+    border: 1px solid #ccc;
+}
+.cards div {
+    position: relative;
+}
+.cards div span{
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    bottom: 12px;
+    right: 0;
+}
+.cards p:nth-child(2){
+    max-width: 700px;
+}
