@@ -1,12 +1,14 @@
+
+
+
  
- 
- *{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.btn{
+.btn {
     background-color: #0057b8;
     border: 2px solid transparent;
     padding: 15px;
@@ -17,70 +19,65 @@
     color: #fff;
 }
 
-.page{
+
+.page {
     background-color: #f3f4f6;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    /* height: 100vw; */
-}
-.container{
-    margin-top: 30px;
 }
 
-.heading{
+/* Styles for the Card Container */
+
+/* Styles for the Heading */
+.heading {
     text-align: center;
     padding-top: 30px;
- 
 }
 
-.heading p:nth-child(1){
+.heading p:nth-child(1) {
     font-size: 1.5rem;
     color: #1d2329;
     line-height: 1.6;
 }
 
-.heading h2{
+.heading h2 {
     font-size: 2.5rem;
     font-family: sans-serif;
     color: #1d2329;
     margin-bottom: 10px;
 }
 
-.heading p:nth-child(3){
+.heading p:nth-child(3) {
     font-size: 1.2rem;
     color: #1d2329;
     line-height: 1.4;
     max-width: 1200px;
     margin: auto;
     font-family: sans-serif;
-  
 }
-.parent_Card{
-    /* text-align: center; */
-    background-color: #f3f4f6;
-    /* max-width: 700px;
-    margin: auto; */
-    margin: 0px 100px 0px 100px;
+
+.cards-container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    
-    padding-top: 20px;
 }
 
-.cards{
-
+.cards {
     margin: 20px;
     background-color: #fff;
-    /* flex-basis:33.33% ; */
     padding-top: 30px;
     border: 1px solid #ccc;
     border-radius: 20px;
 }
+
 .cards div {
     position: relative;
 }
-.cards div .get-rewards{
+
+.cards div .get-rewards {
     background-color: #000;
     color: #fff;
     position: absolute;
@@ -90,61 +87,87 @@
     padding: 0 25px 0 25px;
     font-size: 20px;
 }
-.sub-heading{
+
+.sub-heading {
     padding-top: 15px;
     padding-left: 20px;
 }
-.sub-heading .sub-att p{
+
+.sub-heading .sub-att p {
     font-size: 18px;
     color: #454b52;
-   padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
-.cards .sub-heading h3{
-   font-size: 28px;
-   font-family: sans-serif;
-   padding-bottom: 5px;
+.cards .sub-heading h3 {
+    font-size: 28px;
+    font-family: sans-serif;
+    padding-bottom: 5px;
 }
 
-.cards .sub-heading h3 span{
+.cards .sub-heading h3 span {
     font-size: 16px;
- }
- .sub-heading >  p{
+}
+
+.sub-heading > p {
     color: #454b52;
     font-size: 16px;
     padding-right: 25px;
- }
-.see-offers{
+}
+
+.see-offers {
     color: #454b52;
     font-size: 16px;
     text-decoration: underline;
 }
 
-.sub-contents{
+.sub-contents {
     padding-top: 20px;
 }
-.sub-contents p{
+
+.sub-contents p {
     color: #454b52;
     font-size: 20px;
 }
-.sub-contents > p{
+
+.sub-contents > p {
     padding-top: 10px;
-} 
-.sub-contents p i{
+}
+
+.sub-contents p i {
     font-size: 20px;
     padding-right: 10px;
 }
 
-.featured-contents p i{
+.featured-contents p i {
     padding-bottom: 20px;
     padding-right: 10px;
 }
-.featured-contents p{
+
+.featured-contents p {
     max-width: 550px;
     margin: auto;
 }
- @media screen and (max-width:768px){
-    .parent_Card{
+
+.max-width-p{
+   
+}
+@media screen and (max-width: 768px) {
+    .cards-container {
         flex-direction: column;
     }
-}  
+
+    .btn {
+        background-color: #0057b8;
+        border: 2px solid transparent;
+        padding: 15px;
+        width: 250px;
+        font-size: 1rem;
+        margin: 20px;
+        border-radius: 35px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
